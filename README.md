@@ -1,2 +1,5 @@
-# Deep-model-for-predicting-adult-traits-using-seedling-data-study
-Code and trained weights for flower type predicting model as an example
+# Deep-learning-model-for-predicting-adult-traits-using-seedling-data-study
+It is recommended to adopt screened features for subsequent analysis, with LASSO regression serving as an effective tool for feature selection.
+In this study, we first acquired gene expression datasets from seedling leaves of individual plants within the target population and conducted feature selection. The retained features were further applied to model training and testing to construct a stable and robust model for phenotypic trait prediction.
+For model validation, we expanded our analysis to independent validation populations. We characterized the expression patterns of machine learning-screened genes in seedlings from these populations. Afterwards, the established deep learning models were employed to predict adult plant phenotypes, and the predictive performance was verified via experimental phenotypic observations.
+For deep learning, the Keras framework with a tensorflow backend was utilized to train the models. As a representative example, the source codes and trained weight files of the flower phenotype prediction model are provided herein.
